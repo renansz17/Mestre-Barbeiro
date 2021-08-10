@@ -1,0 +1,18 @@
+.containerRodape{
+    background-color: #2A1C19;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    
+}
+.rodapeSocial{
+    display: flex;
+    list-style: none;
+    
+    
+}
+.rodapeImg{
+    height: 50px;
+    filter: invert(100%);  
+    margin:0 1rem;
+}

@@ -1,0 +1,39 @@
+.barbeiros{
+    background-color: #F4F5F7;
+    padding-top: 5rem;
+}
+.hrBarbeiros{
+    width: 5%;
+    border-color: #F0B35B;
+}
+.barbeirosContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.barbeirosTitulo{
+    color:#2B2B2B;
+    font-size: 4.5rem;
+    font-weight: 400;
+    margin-top: 1rem;
+    text-align: center;
+}
+.barbeirosDescricao{
+    font-size: 1.2rem;
+    text-align: center;
+    width: 45rem;
+}
+.barbeirosContainerFotos{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.barbeirosLegenda{
+    color: #523929;
+    font-family: Mulish,sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding-top:0.5rem;
+    text-align: center;
+}

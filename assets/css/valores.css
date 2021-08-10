@@ -1,0 +1,114 @@
+.valores{
+    background-color:#2B2B2B;
+    padding-top: 5rem;
+}
+.hrValores{
+    width: 5%;
+    border-color: #F0B35B
+}
+.valoresContainer{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 4rem;
+    width: 100%;
+}
+.valoresTitulo{
+    color: #F0B35B;
+    font-size: 4.5rem;
+    font-weight: 400;
+    margin-top: 1rem;
+    text-align: center;
+}
+.valoresDescricao{
+    color: #F4F5F7;
+    font-size: 1.2rem;
+    text-align: center;
+    width: 40rem;
+}
+
+.produtos{
+    width: 100%;
+}
+.produtosContainer{
+   margin-right: 2.5rem;
+   padding-bottom: 2.5rem;
+}
+.produtosLista{
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "c cb" 
+    "b s";
+    gap: 1.5rem;
+    list-style: none;
+}
+    
+.produtoItemCabelo, .produtoItemCabeloEbarba,.produtoItemBarba,.produtoItemSobrancelha{
+    background-color: #F4E8DC;
+    border-left: solid #F0B35B 10px;
+    height: 110px;
+    width: 470px;
+
+
+    display: flex;
+    flex-wrap: wrap ;
+    align-content: center;
+    justify-content: space-between;
+}
+
+
+.produtoItemCabelo{
+    grid-area:c;
+    grid-column-start: 2;
+    
+}
+.produtoItemCabeloEbarba{
+    grid-area:cb;
+    grid-column-start:3 ;
+}
+.produtoItemBarba{
+    grid-area:b;
+    grid-column-start:-4 ;
+}
+.produtoItemSobrancelha{
+    grid-area:s;
+    grid-column-start:-3;
+}
+.produtoPreco ,.produtoTitulo{
+    font-size: 1.5rem;
+    padding:0 0.8rem;
+}
+.produtoTitulo{
+    font-weight: 600;
+    color: #2a2a2a;
+}
+.produtoPreco{
+    color: #523929;
+    font-weight: 700;
+}
+.produtoDescricao{
+    color:  #2A2A2AB0;
+    padding:0 0.8rem;
+}
+
+
+.botaoVoltarContainer{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3rem;
+}
+.botaoVoltar{
+    background-color:  rgba(240, 179, 91, 0.1);
+    border: 2px solid #F0B35B;
+    color: #F0B35B;
+    font-family: Mulish,sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    height:50px;
+    margin-top: 1rem;
+    width:240px;
+}
+.botaoVoltar:hover{
+    cursor: pointer;
+}

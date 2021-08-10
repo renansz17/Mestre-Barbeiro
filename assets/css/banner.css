@@ -1,0 +1,65 @@
+
+.bannerContainer{
+    background-image: url(../img/banner-barbearia.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 43.813rem;
+    width: 100%;
+    
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.bannerTitulo{
+    color: #f2f2f2;
+    font-size: 4.5rem;
+    font-weight: 400;
+    
+}
+.bannerP{
+    color: #f2f2f2;
+    font-size: 1.125rem;
+    margin: 0;
+
+}
+.botaoContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width:100%;
+}
+
+.botaoAgendar{
+    border-style: solid ;
+    border-color: #F0B35B;
+    background-color: #F0B35B;
+
+    color: #2a2a2a;
+    font-family: Mulish;
+    font-size: 21px;
+    font-weight: bold;
+    line-height:45px;
+    text-align: center;
+    text-decoration: none;
+}
+.botaoContato{
+    border-style: solid ;
+    
+    color: #F0B35B;
+    font-family: Mulish;
+    font-size: 21px;
+    font-weight: bold;
+    line-height:45px;
+    text-decoration: none;
+    text-align: center;
+    
+}
+.botaoContato,.botaoAgendar{
+    height: 50px;
+    margin: 2rem 2rem 0 0;
+    width:265px;    
+}
+
+

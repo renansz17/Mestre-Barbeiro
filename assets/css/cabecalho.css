@@ -1,0 +1,49 @@
+
+.cabecalhoPrincipal .container{
+    display: flex;
+    justify-content:flex-end;
+}
+.cabecalhoPrincipal{
+    background-color: #2A1C19;
+    padding-bottom: 2rem;
+}
+.cabecalhoNav{
+    margin:2.5rem 2.5rem 0 0;
+}
+.cabecalhoLinkIcone{
+    width: 1.2rem;
+}
+.cabecalhoLink{
+    color: #ffffffe7;
+    font-size: 1.2rem;
+    padding-left: 2.5rem;
+    text-decoration: none;
+    
+}
+.cabecalhoLink:nth-child(5n){
+    margin-right:2.5rem;
+}
+
+.cabecalhoLinkBotao {
+    color: #ffffffe7;
+    text-decoration: none;
+    
+    background-image: url(../img/agendamentos.png);
+    background-repeat: no-repeat;
+    background-position-x: 10px;
+    background-position: 10px 5px;
+
+    width: 237px;
+    height: 41px;
+    padding: 10px 40px;
+    
+    background-color: #523929;
+}
+
+
+
+@media screen and (min-width:1024px){
+    .cabecalhoNav{
+       margin: none;
+    }
+}
